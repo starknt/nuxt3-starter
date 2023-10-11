@@ -46,7 +46,6 @@ export default defineNuxtConfig({
       process.env.NODE_ENV === 'production'
         ? [
             /vue-i18n/,
-            'vue3-particles',
           ]
         : [/vue-i18n/],
   },
@@ -90,38 +89,28 @@ export default defineNuxtConfig({
       },
     ],
     devProxy: {
-      '/api': {
-        target: 'http://localhost:5174/api', // 这里是接口地址
-        changeOrigin: true,
-        prependPath: true,
-        autoRewrite: true,
-      },
+      // '/api': {
+      //   target: 'http://localhost:5174/api', // 这里是接口地址
+      //   changeOrigin: true,
+      //   prependPath: true,
+      //   autoRewrite: true,
+      // },
     },
     // 该配置用于服务端请求转发
     routeRules: {
-      '/api/**': {
-        proxy: 'http://localhost:5174/api/**',
-      },
+      // '/api/**': {
+      //   proxy: 'http://localhost:5174/api/**',
+      // },
 
-      '/tokenizer': {
-        security: {
-          requestSizeLimiter: {
-            maxRequestSizeInBytes: 1024 * 1024 * 2, // 2MB
-          },
-          xssValidator: false,
-        },
-      },
-
-      '/__nuxt_island/**': {
-        security: {
-          requestSizeLimiter: {
-            maxRequestSizeInBytes: 1024 * 1024 * 1.5, // 1.5MB
-          },
-          xssValidator: false,
-        },
-      },
+      // '/__nuxt_island/**': {
+      //   security: {
+      //     requestSizeLimiter: {
+      //       maxRequestSizeInBytes: 1024 * 1024 * 1.5, // 1.5MB
+      //     },
+      //     xssValidator: false,
+      //   },
+      // },
     },
-
   },
 
   colorMode: {
