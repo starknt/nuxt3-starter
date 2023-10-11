@@ -40,9 +40,7 @@ export default defineNuxtConfig({
     },
   },
 
-  css: [
-    '~/assets/css/globals.css',
-  ],
+  css: [],
 
   build: {
     transpile:

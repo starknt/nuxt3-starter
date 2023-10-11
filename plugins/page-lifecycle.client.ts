@@ -1,10 +1,9 @@
 import lifecycle from 'page-lifecycle/dist/lifecycle.mjs'
-import { PAGE_LIFECYCLE_FROZEN } from '~/contants'
 
 export default defineNuxtPlugin(() => {
   const state = ref(lifecycle.state)
   const frozenListeners: (() => void)[] = []
-  const frozenState = useLocalStorage(PAGE_LIFECYCLE_FROZEN, false)
+  const frozenState = useLocalStorage('PAGE_LIFECYCLE_FROZEN', false)
 
   lifecycle.addEventListener('statechange', (evt) => {
     if (evt.newState === 'hidden' && evt.oldState === 'frozen') {

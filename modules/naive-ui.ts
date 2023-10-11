@@ -3,7 +3,7 @@ import naive from 'naive-ui'
 
 export default defineNuxtModule({
   meta: {
-    name: 'starsky:naive-ui',
+    name: 'naive-ui',
   },
   hooks: {
     'prepare:types': ({ references }) => {

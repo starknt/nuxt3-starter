@@ -2,18 +2,5 @@
   "button": {
     "cancel": "Cancel",
     "confirm": "Confirm"
-  },
-  "pages": {
-    "main": {
-      "conversation": {
-        "document": {
-          "settings": "Setting Conversation"
-        },
-        "modal": {
-          "clear-content": "这将删除本会话的所有消息，且不可恢复",
-          "clear-title": "删除本会话的所有消息"
-        }
-      }
-    }
   }
 }

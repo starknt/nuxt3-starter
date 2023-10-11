@@ -40,6 +40,7 @@
     "nuxt": "^3.7.4",
     "nuxt-security": "^0.14.4",
     "nuxt-vitest": "^0.11.0",
+    "page-lifecycle": "^0.1.2",
     "simple-git": "^3.20.0",
     "simple-git-hooks": "^2.9.0",
     "std-env": "^3.4.3",
