@@ -28,9 +28,8 @@ export default defineNuxtConfig({
         class: 'overflow-x-hidden',
       },
       link: [
-        { rel: 'icon', href: '/logo.svg', sizes: 'any' },
-        { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' },
-        // { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
+        { rel: 'icon', href: '/favicon.ico', sizes: 'any' },
+        { rel: 'icon', type: 'image/svg+xml', href: '/favicon.ico' },
       ],
       meta: [
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
