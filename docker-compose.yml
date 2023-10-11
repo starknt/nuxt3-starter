@@ -1,0 +1,12 @@
+services:
+  ssgpt:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      # make sure this directory has the same ownership as the ssgpt user from the Dockerfile
+      # otherwise ssgpt will not be able to store configs for accounts
+      # e.q. mkdir ./ssgpt-storage; sudo chown 911:911 ./ssgpt-storage
+      - './ssgpt-storage:/ssgpt/data'
+    ports:
+      - 5314:5314

@@ -1,0 +1,46 @@
+{
+  "button": {
+    "cancel": "取消",
+    "confirm": "确认"
+  },
+  "not-found": "未找到页面",
+  "pages": {
+    "login": {
+      "fields": {
+        "password": "密码",
+        "username": "用户名"
+      },
+      "title": "登录账号"
+    },
+    "main": {
+      "conversation": {
+        "document": {
+          "settings": "配置对话"
+        },
+        "modal": {
+          "clear-content": "这将删除本会话的所有消息，且不可恢复",
+          "clear-title": "删除本会话的所有消息"
+        },
+        "sidebar": {
+          "delete-content": "这将删除本对话，且不可恢复",
+          "delete-title": "确认删除对话",
+          "new": "新建对话",
+          "title": "对话列表"
+        },
+        "tips": {
+          "empty": "暂无对话",
+          "title": "最近对话"
+        }
+      }
+    },
+    "register": {
+      "title": "注册账号"
+    }
+  },
+  "placeholder": {
+    "edit-modal-content": "简单点描述一下你的对话文件吧, 能更方便的找到你的对话文件哦",
+    "edit-modal-role": "选择对话角色",
+    "edit-modal-title": "未命名对话",
+    "search-conversation": "搜索对话"
+  }
+}

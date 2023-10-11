@@ -1,0 +1,15 @@
+{
+  "css.validate": false,
+  "i18n-ally.localesPaths": [
+    "locales"
+  ],
+  "i18n-ally.keystyle": "nested",
+  "i18n-ally.sourceLanguage": "zh-CN",
+  "cSpell.words": [
+    "Nuxt"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": false
+  }
+}

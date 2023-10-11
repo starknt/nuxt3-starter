@@ -1,0 +1,9 @@
+Dockerfile
+node_modules
+npm-debug.log
+dist
+*.log
+.output
+.nuxt
+.DS_Store
+.idea/
