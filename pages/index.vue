@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div class="mt-12 flex gap-x-4">
+  <div class="flex flex-col gap-2 mt-12">
+    <div class="flex gap-x-4">
       <n-button type="warning">
         {{ $t('button.confirm') }}
       </n-button>
